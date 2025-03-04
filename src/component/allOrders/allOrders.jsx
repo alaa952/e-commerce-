@@ -1,5 +1,5 @@
 import React, { useEffect, useState } from 'react'
-import style from './AllOrders.module.css'
+import style from './allOrders.module.css'
 export default function AllOrders() {
   const [count, setcount] = useState(0)
  useEffect(()=>{
